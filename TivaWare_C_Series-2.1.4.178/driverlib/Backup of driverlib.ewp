@@ -116,7 +116,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>28</version>
+                    <version>26</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -133,7 +133,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>28</version>
+                    <version>26</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -156,7 +156,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>28</version>
+                    <version>26</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -198,7 +198,7 @@
                 </option>
                 <option>
                     <name>DSPExtension</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>TrustZone</name>
@@ -215,7 +215,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>36</version>
+                <version>34</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -463,21 +463,13 @@
                     <name>IccRTTI2</name>
                     <state>0</state>
                 </option>
-                <option>
-                    <name>OICompilerExtraOption</name>
-                    <state>1</state>
-                </option>
-                <option>
-                    <name>CCStackProtection</name>
-                    <state>0</state>
-                </option>
             </data>
         </settings>
         <settings>
             <name>AARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>11</version>
+                <version>10</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -633,10 +625,6 @@
                     <name>AsmNoLiteralPool</name>
                     <state>0</state>
                 </option>
-                <option>
-                    <name>PreInclude</name>
-                    <state></state>
-                </option>
             </data>
         </settings>
         <settings>
@@ -657,7 +645,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>grlib.srec</state>
+                    <state>driverlib.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -695,7 +683,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>23</version>
+                <version>21</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -712,7 +700,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>grlib.out</state>
+                    <state>driverlib.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -1011,26 +999,6 @@
                     <name>IlinkTrustzoneImportLibraryOut</name>
                     <state>###Unitialized###</state>
                 </option>
-                <option>
-                    <name>OILinkExtraOption</name>
-                    <state>1</state>
-                </option>
-                <option>
-                    <name>IlinkRawBinaryFile2</name>
-                    <state></state>
-                </option>
-                <option>
-                    <name>IlinkRawBinarySymbol2</name>
-                    <state></state>
-                </option>
-                <option>
-                    <name>IlinkRawBinarySegment2</name>
-                    <state></state>
-                </option>
-                <option>
-                    <name>IlinkRawBinaryAlign2</name>
-                    <state></state>
-                </option>
             </data>
         </settings>
         <settings>
@@ -1050,7 +1018,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>D:\aulas\EL68E_SE\install_IAR8\EK-TM4C1294_IAR8\TivaWare_C_Series-2.1.4.178\grlib\ewarm\Exe\grlib.a</state>
+                    <state>$PROJ_DIR$\ewarm\Exe\driverlib.a</state>
                 </option>
             </data>
         </settings>
@@ -1063,523 +1031,100 @@
     <group>
         <name>Source</name>
         <file>
-            <name>$PROJ_DIR$\canvas.c</name>
+            <name>$PROJ_DIR$\adc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\charmap.c</name>
+            <name>$PROJ_DIR$\aes.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\checkbox.c</name>
+            <name>$PROJ_DIR$\can.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\circle.c</name>
+            <name>$PROJ_DIR$\comp.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\container.c</name>
+            <name>$PROJ_DIR$\cpu.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\context.c</name>
+            <name>$PROJ_DIR$\crc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm12.c</name>
+            <name>$PROJ_DIR$\des.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm12b.c</name>
+            <name>$PROJ_DIR$\eeprom.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm12i.c</name>
+            <name>$PROJ_DIR$\emac.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm14.c</name>
+            <name>$PROJ_DIR$\epi.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm14b.c</name>
+            <name>$PROJ_DIR$\flash.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm14i.c</name>
+            <name>$PROJ_DIR$\fpu.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm16.c</name>
+            <name>$PROJ_DIR$\gpio.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm16b.c</name>
+            <name>$PROJ_DIR$\hibernate.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm16i.c</name>
+            <name>$PROJ_DIR$\i2c.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm18.c</name>
+            <name>$PROJ_DIR$\interrupt.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm18b.c</name>
+            <name>$PROJ_DIR$\lcd.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm18i.c</name>
+            <name>$PROJ_DIR$\mpu.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm20.c</name>
+            <name>$PROJ_DIR$\onewire.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm20b.c</name>
+            <name>$PROJ_DIR$\pwm.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm20i.c</name>
+            <name>$PROJ_DIR$\qei.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm22.c</name>
+            <name>$PROJ_DIR$\shamd5.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm22b.c</name>
+            <name>$PROJ_DIR$\ssi.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm22i.c</name>
+            <name>$PROJ_DIR$\sw_crc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm24.c</name>
+            <name>$PROJ_DIR$\sysctl.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm24b.c</name>
+            <name>$PROJ_DIR$\sysexc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm24i.c</name>
+            <name>$PROJ_DIR$\systick.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm26.c</name>
+            <name>$PROJ_DIR$\timer.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm26b.c</name>
+            <name>$PROJ_DIR$\uart.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm26i.c</name>
+            <name>$PROJ_DIR$\udma.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm28.c</name>
+            <name>$PROJ_DIR$\usb.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\fonts\fontcm28b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm28i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm30.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm30b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm30i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm32.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm32b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm32i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm34.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm34b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm34i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm36.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm36b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm36i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm38.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm38b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm38i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm40.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm40b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm40i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm42.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm42b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm42i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm44.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm44b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm44i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm46.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm46b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm46i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm48.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm48b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcm48i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc12.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc14.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc16.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc18.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc20.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc22.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc24.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc26.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc28.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc30.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc32.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc34.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc36.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc38.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc40.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc42.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc44.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc46.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmsc48.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss12.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss12b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss12i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss14.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss14b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss14i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss16.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss16b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss16i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss18.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss18b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss18i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss20.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss20b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss20i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss22.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss22b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss22i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss24.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss24b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss24i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss26.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss26b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss26i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss28.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss28b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss28i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss30.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss30b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss30i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss32.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss32b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss32i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss34.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss34b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss34i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss36.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss36b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss36i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss38.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss38b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss38i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss40.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss40b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss40i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss42.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss42b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss42i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss44.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss44b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss44i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss46.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss46b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss46i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss48.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss48b.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmss48i.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt12.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt14.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt16.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt18.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt20.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt22.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt24.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt26.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt28.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt30.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt32.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt34.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt36.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt38.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt40.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt42.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt44.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt46.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontcmtt48.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\fonts\fontfixed6x8.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\image.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\imgbutton.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\keyboard.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\line.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\listbox.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\offscr1bpp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\offscr4bpp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\offscr8bpp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\pushbutton.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\radiobutton.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\rectangle.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\slider.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\string.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\widget.c</name>
+            <name>$PROJ_DIR$\watchdog.c</name>
         </file>
     </group>
 </project>
