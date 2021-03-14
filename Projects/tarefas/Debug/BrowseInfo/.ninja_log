@@ -1,0 +1,16 @@
+# ninja log v5
+1	381	6374615270000000	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/driverleds.xcl	c08e73474de320de
+31	392	6374615270000000	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/RTX_Config.xcl	962cb93bde10a2f9
+390	534	6374615270000000	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/system_TM4C1294_TW.xcl	a2fefd2c26508f86
+401	634	6374615275812235	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/RTX_Config.pbi	a851b4f5d5a7e5f9
+544	684	6374615270000000	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/tarefas.xcl	5f549991c9a6d870
+637	778	6374615270000000	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/rtx_lib.xcl	1feb5ad84e2659bc
+692	817	6374615277661216	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/driverleds.pbi	8e8e0b3405fc9359
+819	878	6374615278351352	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/tarefas_part0.pbi	8f0e72cbf44bc0dd
+882	967	6374615279197729	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/tarefas.pbi	c9b9bdcaefa1836c
+969	990	6374615279353967	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/tarefas_part2.pbi	a1f58c31cf10036d
+787	1033	6374615279822708	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/rtx_lib.pbi	425d51b23332c4c6
+992	1158	6374615281046619	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/system_TM4C1294_TW.pbi	89c168a14e6a5423
+1162	1214	6374615281671671	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/tarefas_part1.pbi	6ee03c4698e528dc
+1218	1275	6374615282361800	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/tarefas.pbd	d7ac9253584ab040
+1280	3259	6374615301724019	C:/Users/Ardissone/ric/EK-TM4C1294_RTOS_IAR8/Projects/tarefas/Debug/BrowseInfo/tarefas.pbw	1abd01a7c81e2cfd
