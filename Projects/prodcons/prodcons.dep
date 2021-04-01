@@ -5,65 +5,61 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\ewarm\Obj\system_TM4C1294_TW.o</file>
-            <file>$PROJ_DIR$\ewarm\Obj\RTX_Config.o</file>
-            <file>$PROJ_DIR$\ewarm\Obj\driverleds.o</file>
-            <file>$PROJ_DIR$\ewarm\Obj\rtx_lib.o</file>
-            <file>$PROJ_DIR$\ewarm\Obj\prodcons.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\ewarm\List\prodcons.map</file>
             <file>$PROJ_DIR$\..\drivers\driverleds.c</file>
             <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</file>
-            <file>$PROJ_DIR$\src\RTX_Config.c</file>
-            <file>$PROJ_DIR$\src\rtx_lib.c</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a</file>
             <file>$PROJ_DIR$\src\prodcons.c</file>
             <file>$PROJ_DIR$\src\startup_TM4C1294.s</file>
             <file>$PROJ_DIR$\src\system_TM4C1294_TW.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a</file>
+            <file>$PROJ_DIR$\ewarm\Obj\system_TM4C1294_TW.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\RTX_Config.o</file>
+            <file>$PROJ_DIR$\src\RTX_Config.c</file>
+            <file>$PROJ_DIR$\src\rtx_lib.c</file>
+            <file>$PROJ_DIR$\src\RTX_Config.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\gpio.h</file>
+            <file>$PROJ_DIR$\src\TM4C1294NCPDT.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include\rtx_os.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\startup_TM4C1294.o.rsp</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h</file>
-            <file>$PROJ_DIR$\..\drivers\driverleds.h</file>
             <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include\rtx_evr.h</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\gpio.h</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include\rtx_os.h</file>
-            <file>$PROJ_DIR$\src\RTX_Config.h</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h</file>
-            <file>$PROJ_DIR$\..\..\..\EK-TM4C1294_IAR8\Projects\fsm_event\src\fsm_event.c</file>
-            <file>$PROJ_DIR$\..\..\..\EK-TM4C1294_IAR8\Projects\simple_io_main_sp\src\simple_io_main_sp.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\driverleds.o</file>
             <file>$PROJ_DIR$\ewarm\Exe\prodcons.out</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\core_cm4.h</file>
-            <file>$PROJ_DIR$\src\system_TM4C1294.h</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h</file>
-            <file>$PROJ_DIR$\ewarm\Exe\prodcons.bin</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_iccarm.h</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_version.h</file>
-            <file>$PROJ_DIR$\src\TM4C1294NCPDT.h</file>
-            <file>$PROJ_DIR$\ewarm\Obj\startup_TM4C1294.o.rsp</file>
             <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\ewarm\Obj\startup_TM4C1294.o</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\..\tarefas\src\tarefas.c</file>
-            <file>$PROJ_DIR$\..\blinky\src\blinky.c</file>
-            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\drivers\driverleds.h</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\rtx_lib.o</file>
+            <file>$PROJ_DIR$\src\system_TM4C1294.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\prodcons.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\startup_TM4C1294.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_iccarm.h</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
-            <file>$PROJ_DIR$\ewarm\List\prodcons.map</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\ewarm\Exe\prodcons.bin</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 26 48</file>
+                    <file> 27 3</file>
                 </tool>
             </outputs>
         </file>
@@ -72,58 +68,22 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 26</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 42 32 24 35 25 31 33 16 18 29 15</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\RTX_Config.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 1</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 42 32 24 40 13 25 31 14 33 34 36 21 19</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\rtx_lib.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 3</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 42 32 24 40 13 25 31 14 33 34 36 21 17 19 20</file>
+                    <file> 31 40 28 29 47 15 36 34 17 21 24</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\src\prodcons.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 42 32 24 13 25 31 14 33 21 16 28 18 29 15</file>
+                    <file> 31 40 28 43 47 15 23 36 32 34 38 17 21 24</file>
                 </tool>
             </inputs>
         </file>
@@ -132,13 +92,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 41</file>
+                    <file> 42</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 39</file>
+                    <file> 22</file>
                 </tool>
             </inputs>
         </file>
@@ -147,13 +107,43 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 42 32 24 40 35 25 31 33 34 36 37 27 38 28 29</file>
+                    <file> 31 40 28 30 29 47 15 36 41 44 20 33 18 38 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\RTX_Config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 40 28 30 43 47 15 23 36 41 44 32 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\rtx_lib.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 40 28 30 43 47 15 23 36 41 44 32 25 19 14</file>
                 </tool>
             </inputs>
         </file>
@@ -161,18 +151,18 @@
             <name>$PROJ_DIR$\ewarm\Exe\prodcons.out</name>
             <outputs>
                 <tool>
-                    <name>OBJCOPY</name>
-                    <file> 30</file>
+                    <name>ILINK</name>
+                    <file> 3</file>
                 </tool>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 48</file>
+                    <name>OBJCOPY</name>
+                    <file> 46</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 47 50 45 51 49 46 9 1 2 4 3 41 0 6</file>
+                    <file> 45 0 16 2 1 35 9 11 26 39 37 42 10 5</file>
                 </tool>
             </inputs>
         </file>
@@ -181,20 +171,16 @@
             <inputs>
                 <tool>
                     <name>OBJCOPY</name>
-                    <file> 26</file>
+                    <file> 27</file>
                 </tool>
             </inputs>
         </file>
         <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
             <name>$PROJ_DIR$\..\drivers\driverleds.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\src\RTX_Config.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\src\rtx_lib.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
@@ -206,8 +192,12 @@
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
+            <name>$PROJ_DIR$\src\RTX_Config.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\src\rtx_lib.c</name>
+            <tool>ICCARM</tool>
         </forcedrebuild>
     </configuration>
 </project>

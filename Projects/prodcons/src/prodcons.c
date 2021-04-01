@@ -14,7 +14,16 @@ uint8_t buffer[BUFFER_SIZE];
 void produtor(){
   static uint8_t index_i = 0;
   static uint8_t count = 0;
+  static uint32_t tick = 0;
+
   GPIOIntClear(GPIO_PORTJ_BASE, GPIO_PIN_0);
+  
+  
+  if (tick >= osKernelGetTickCount()) {
+    return;
+  }
+
+  tick = osKernelGetTickCount() + 200;
   
   if (osSemaphoreAcquire(vazio_id, 0) != osOK) { // há espaço disponível?
     for(;;);
